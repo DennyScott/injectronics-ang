@@ -8,10 +8,10 @@
  * Controller of the injectronicsApp
  */
 angular.module('injectronicsApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, $rootScope) {
+		
+		//Define Template Data
+		$rootScope.template = {};
+		$rootScope.template.header = 'staticHeader';
+		$rootScope.template.aboveHeader = 'views/partials/welcomeSplash.html';
   });
