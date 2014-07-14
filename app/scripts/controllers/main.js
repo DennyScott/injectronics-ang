@@ -12,6 +12,6 @@ angular.module('injectronicsApp')
 		
 		//Define Template Data
 		$rootScope.template = {};
-		$rootScope.template.header = 'staticHeader';
-		$rootScope.template.aboveHeader = 'views/partials/welcomeSplash.html';
+		$rootScope.template.header = 'none';
+		$scope.header = 'views/partials/headers/staticHeader.html';
   });

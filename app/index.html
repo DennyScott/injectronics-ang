@@ -21,16 +21,15 @@
 		<![endif]-->
 
 <!-- Add your site or application content here -->
-<!--Splash Image -->
-<div ng-include src="template.aboveHeader"></div>
 <!--Header -->
 <div ng-controller="HeaderCtrl">
 	<div ng-include src="getHeader()"></div>
 </div>
+
 <div ng-view=""></div>
 
-<div class="footer">
-	<p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+<div ng-controller="FooterCtrl">
+	<div ng-include src="getFooter()"></div>
 </div>
 
 
@@ -72,6 +71,7 @@ ga('send', 'pageview');
 <script src="scripts/controllers/contact.js"></script>
 <script src="scripts/controllers/cart.js"></script>
 <script src="scripts/controllers/partials/header.js"></script>
+<script src="scripts/controllers/partials/footer.js"></script>
 <!-- endbuild -->
 </body>
 </html>

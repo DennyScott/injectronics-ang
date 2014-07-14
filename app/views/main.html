@@ -1,23 +1,77 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
+<link rel="stylesheet" type="text/css" href="styles/welcomeSplash.css">
+<div class="splashpage">
+	<div class = 'splash'>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+		<div class = "row" >
+			<div id="splashWrapper">
+				<div class="splash-header" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+					<div class = "row">
+						<div class="col-xs-12 col-sm-9 col-md-5">
+							<div class="header-content" data-0="opacity: 1" data-180="opacity: 0">
+								<h1>
+									<small>A new way to learn</small>
+									<br>Technical Training
+								</h1>
+								<p class="subheading"> that provides practical, down - to - earth tools and techniques that enable you to diagnose and repair the vehicles of today.</p>
+
+								<button class="btn btn-lg btn-primary signin" data-toggle="modal" href="#myModal">Sign In</button>
+
+								<button id="learnMore" class="btn btn-lg btn-success signin">Learn More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div ng-include src="header"></div>
+			<div class="splash-content" id="splash-content">
+				<div class="container">
+					<!--Featurette -->
+
+					<div class="row featurette">
+						<div class="col-sm-5 col-sm-push-7">
+							<img class="featurette-image img-responsive" src="/images/featurette.png" alt="500x500">
+						</div>
+						<div class="col-sm-7 col-sm-pull-5">
+							<h2 class="featurette-heading">Browse our Courses. <span class="text-muted">Find your passion.</span></h2>
+							<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+						</div>
+
+					</div>
+
+					<hr class="featurette-divider">
+					<div class="row featurette">
+						<div class="col-sm-5">
+							<img class="featurette-image img-responsive" src="/images/featurette.png" alt="500x500">
+						</div>
+						<div class="col-sm-7">
+							<h2 class="featurette-heading">Online Training <span class="text-muted">Anywhere, anytime.</span></h2>
+							<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+						</div>
+
+					</div>
+
+					<hr class="featurette-divider">
+
+					<!--Featurette -->
+					<div class="row featurette">
+						<div class="col-sm-5 col-sm-push-7">
+							<img class="featurette-image img-responsive" src="/images/featurette.png" alt="500x500">
+						</div>
+						<div class="col-sm-7 col-sm-pull-5">
+							<h2 class="featurette-heading">Classroom Training <span class="text-muted">See for yourself.</span></h2>
+							<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+						</div>
+					</div>
+
+					<hr class="featurette-divider">
+
+
+
+
+				</div>
+			</div>
+		</div>
+
+
